@@ -5,8 +5,6 @@
 #
 
 DOMAIN-SUFFIX,ampproject.org,PROXY # Google AMP issue#237
-
-# 知乎开屏广告拦截
 AND,((DOMAIN,api.zhihu.com),(PROTOCOL,UDP)),REJECT-NO-DROP
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\?,REJECT
 URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\?,REJECT
