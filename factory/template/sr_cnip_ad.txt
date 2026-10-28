@@ -20,4 +20,3 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\?,REJ
 GEOIP,CN,DIRECT
 
 FINAL,proxy
-
